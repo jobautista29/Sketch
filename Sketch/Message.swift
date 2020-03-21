@@ -13,11 +13,11 @@ struct Message: View {
         ZStack {
             
             
-            TextField("Sketch here", text: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Value@*/.constant("")/*@END_MENU_TOKEN@*/)
-                .padding(.all )
-                .padding(.vertical, 25)
-                .lineLimit(3)
-                .padding(.all, 2).background(Color.white)
+            TextField("Write Message here...", text: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Value@*/.constant("")/*@END_MENU_TOKEN@*/)
+                .frame(width:390,height:100)
+                .lineLimit(2)
+                .padding(.all, 5)
+                .background(Color.white)
                 .cornerRadius(15)
                 .shadow(radius: 10)
             

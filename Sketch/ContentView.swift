@@ -15,8 +15,9 @@ struct ContentView: View {
             
             VStack{
                 Title().padding(.bottom, -20)
+                    .padding(.top, 10)
                 Message()
-                    .padding(.all,7)
+                    .padding(.all, 7)
                     
                 
                 List {

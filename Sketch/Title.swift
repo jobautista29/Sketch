@@ -13,7 +13,7 @@ struct Title: View {
         ZStack{
             HStack {
                 Spacer()
-                Text("Sketch")
+                Text("Bulletin Board")
                     .font(.largeTitle)
                     .foregroundColor(Color.white)
                     .fontWeight(.black)
